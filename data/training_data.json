@@ -1,0 +1,42 @@
+[
+  {
+    "input": "Show all customers",
+    "output": "SELECT * FROM Customers;"
+  },
+  {
+    "input": "List all artists",
+    "output": "SELECT * FROM Artists;"
+  },
+  {
+    "input": "Show all albums",
+    "output": "SELECT * FROM Albums;"
+  },
+  {
+    "input": "List all tracks",
+    "output": "SELECT * FROM Tracks;"
+  },
+  {
+    "input": "Show all invoices",
+    "output": "SELECT * FROM Invoices;"
+  },
+  {
+    "input": "Show customers from USA",
+    "output": "SELECT * FROM Customers WHERE Country = 'USA';"
+  },
+  {
+    "input": "Show invoices with total more than 10",
+    "output": "SELECT * FROM Invoices WHERE Total > 10;"
+  },
+  {
+    "input": "List tracks with unit price greater than 1",
+    "output": "SELECT * FROM Tracks WHERE UnitPrice > 1;"
+  },
+  {
+    "input": "Show employees",
+    "output": "SELECT * FROM Employees;"
+  },
+  {
+    "input": "List playlists",
+    "output": "SELECT * FROM Playlists;"
+  }
+]
